@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* FlashMeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FlashMeAppDelegate.m */; };
+		1D3623EC0D0F72F000981E51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* DecksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* DecksViewController.m */; };
+		360AC4090DC3F367009E4431 /* DeckView.m in Sources */ = {isa = PBXBuildFile; fileRef = 360AC4080DC3F367009E4431 /* DeckView.m */; };
+		360AC40C0DC3F40A009E4431 /* DeckTableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 360AC40B0DC3F40A009E4431 /* DeckTableModel.m */; };
+		36306DBF0DBECD1E00DF9BFA /* decks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36306DBE0DBECD1E00DF9BFA /* decks.plist */; };
+		36306E340DBFC45500DF9BFA /* SyncManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36306E330DBFC45500DF9BFA /* SyncManager.m */; };
+		36306EAD0DBFCCD600DF9BFA /* MultilineTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36306EAC0DBFCCD600DF9BFA /* MultilineTableCell.m */; };
+		36D0237A0DC1754C0029F259 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D023790DC1754C0029F259 /* CardViewController.m */; };
+		36E50F880DBD2C52009B02F5 /* DeckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E50F870DBD2C52009B02F5 /* DeckViewController.m */; };
+		36E50F8F0DBD2CF9009B02F5 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E50F8E0DBD2CF9009B02F5 /* Deck.m */; };
+		36E50FA00DBD4934009B02F5 /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E50F9D0DBD4934009B02F5 /* Database.m */; };
+		36E50FA10DBD4934009B02F5 /* Statement.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E50F9F0DBD4934009B02F5 /* Statement.m */; };
+		36E50FAC0DBD56B4009B02F5 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E50FAB0DBD56B4009B02F5 /* libsqlite3.0.dylib */; };
+		36E510360DBD6466009B02F5 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E510350DBD6466009B02F5 /* Card.m */; };
+		36E510780DBD698A009B02F5 /* flash.db in Resources */ = {isa = PBXBuildFile; fileRef = 36E510760DBD698A009B02F5 /* flash.db */; };
+		36E510790DBD698A009B02F5 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 36E510770DBD698A009B02F5 /* plus.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* FlashMeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashMeAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* FlashMeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashMeAppDelegate.m; sourceTree = "<group>"; };
+		1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* iFlashMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFlashMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* iFlashMe_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iFlashMe_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* DecksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecksViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* DecksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecksViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		360AC4070DC3F367009E4431 /* DeckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeckView.h; sourceTree = "<group>"; };
+		360AC4080DC3F367009E4431 /* DeckView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeckView.m; sourceTree = "<group>"; };
+		360AC40A0DC3F40A009E4431 /* DeckTableModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeckTableModel.h; sourceTree = "<group>"; };
+		360AC40B0DC3F40A009E4431 /* DeckTableModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeckTableModel.m; sourceTree = "<group>"; };
+		36306DBE0DBECD1E00DF9BFA /* decks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = decks.plist; path = resources/decks.plist; sourceTree = "<group>"; };
+		36306E320DBFC45500DF9BFA /* SyncManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncManager.h; sourceTree = "<group>"; };
+		36306E330DBFC45500DF9BFA /* SyncManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncManager.m; sourceTree = "<group>"; };
+		36306EAB0DBFCCD600DF9BFA /* MultilineTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultilineTableCell.h; sourceTree = "<group>"; };
+		36306EAC0DBFCCD600DF9BFA /* MultilineTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultilineTableCell.m; sourceTree = "<group>"; };
+		36D023780DC1754C0029F259 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		36D023790DC1754C0029F259 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		36E50F860DBD2C52009B02F5 /* DeckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeckViewController.h; sourceTree = "<group>"; };
+		36E50F870DBD2C52009B02F5 /* DeckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeckViewController.m; sourceTree = "<group>"; };
+		36E50F8D0DBD2CF9009B02F5 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = models/Deck.h; sourceTree = "<group>"; };
+		36E50F8E0DBD2CF9009B02F5 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = models/Deck.m; sourceTree = "<group>"; };
+		36E50F9C0DBD4934009B02F5 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Database.h; path = Database/Database.h; sourceTree = "<group>"; };
+		36E50F9D0DBD4934009B02F5 /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Database.m; path = Database/Database.m; sourceTree = "<group>"; };
+		36E50F9E0DBD4934009B02F5 /* Statement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Statement.h; path = Database/Statement.h; sourceTree = "<group>"; };
+		36E50F9F0DBD4934009B02F5 /* Statement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Statement.m; path = Database/Statement.m; sourceTree = "<group>"; };
+		36E50FAB0DBD56B4009B02F5 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.0.sdk/usr/lib/libsqlite3.0.dylib; sourceTree = DEVELOPER_DIR; };
+		36E510340DBD6466009B02F5 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = models/Card.h; sourceTree = "<group>"; };
+		36E510350DBD6466009B02F5 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = models/Card.m; sourceTree = "<group>"; };
+		36E510760DBD698A009B02F5 /* flash.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = flash.db; path = resources/flash.db; sourceTree = "<group>"; };
+		36E510770DBD698A009B02F5 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plus.png; path = resources/plus.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				1D3623EC0D0F72F000981E51 /* CoreGraphics.framework in Frameworks */,
+				36E50FAC0DBD56B4009B02F5 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				36306EAA0DBFCCD600DF9BFA /* Renderers */,
+				36E50F9B0DBD4910009B02F5 /* Database */,
+				36E50F8C0DBD2CD3009B02F5 /* models */,
+				28C286DF0D94DF7D0034E888 /* DecksViewController.h */,
+				28C286E00D94DF7D0034E888 /* DecksViewController.m */,
+				1D3623240D0F684500981E51 /* FlashMeAppDelegate.h */,
+				1D3623250D0F684500981E51 /* FlashMeAppDelegate.m */,
+				36E50F860DBD2C52009B02F5 /* DeckViewController.h */,
+				36E50F870DBD2C52009B02F5 /* DeckViewController.m */,
+				36D023780DC1754C0029F259 /* CardViewController.h */,
+				36D023790DC1754C0029F259 /* CardViewController.m */,
+				360AC4070DC3F367009E4431 /* DeckView.h */,
+				360AC4080DC3F367009E4431 /* DeckView.m */,
+				360AC40A0DC3F40A009E4431 /* DeckTableModel.h */,
+				360AC40B0DC3F40A009E4431 /* DeckTableModel.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iFlashMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* iFlashMe_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				36306E320DBFC45500DF9BFA /* SyncManager.h */,
+				36306E330DBFC45500DF9BFA /* SyncManager.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				36E510760DBD698A009B02F5 /* flash.db */,
+				36E510770DBD698A009B02F5 /* plus.png */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				36306DBE0DBECD1E00DF9BFA /* decks.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36E50FAB0DBD56B4009B02F5 /* libsqlite3.0.dylib */,
+				1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36306EAA0DBFCCD600DF9BFA /* Renderers */ = {
+			isa = PBXGroup;
+			children = (
+				36306EAB0DBFCCD600DF9BFA /* MultilineTableCell.h */,
+				36306EAC0DBFCCD600DF9BFA /* MultilineTableCell.m */,
+			);
+			path = Renderers;
+			sourceTree = "<group>";
+		};
+		36E50F8C0DBD2CD3009B02F5 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				36E50F8D0DBD2CF9009B02F5 /* Deck.h */,
+				36E50F8E0DBD2CF9009B02F5 /* Deck.m */,
+				36E510340DBD6466009B02F5 /* Card.h */,
+				36E510350DBD6466009B02F5 /* Card.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		36E50F9B0DBD4910009B02F5 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				36E50F9C0DBD4934009B02F5 /* Database.h */,
+				36E50F9D0DBD4934009B02F5 /* Database.m */,
+				36E50F9E0DBD4934009B02F5 /* Statement.h */,
+				36E50F9F0DBD4934009B02F5 /* Statement.m */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iFlashMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iFlashMe" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iFlashMe;
+			productName = iFlashMe;
+			productReference = 1D6058910D05DD3D006BFB54 /* iFlashMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iFlashMe" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iFlashMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				36E510780DBD698A009B02F5 /* flash.db in Resources */,
+				36E510790DBD698A009B02F5 /* plus.png in Resources */,
+				36306DBF0DBECD1E00DF9BFA /* decks.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* FlashMeAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* DecksViewController.m in Sources */,
+				36E50F880DBD2C52009B02F5 /* DeckViewController.m in Sources */,
+				36E50F8F0DBD2CF9009B02F5 /* Deck.m in Sources */,
+				36E50FA00DBD4934009B02F5 /* Database.m in Sources */,
+				36E50FA10DBD4934009B02F5 /* Statement.m in Sources */,
+				36E510360DBD6466009B02F5 /* Card.m in Sources */,
+				36306E340DBFC45500DF9BFA /* SyncManager.m in Sources */,
+				36306EAD0DBFCCD600DF9BFA /* MultilineTableCell.m in Sources */,
+				36D0237A0DC1754C0029F259 /* CardViewController.m in Sources */,
+				360AC4090DC3F367009E4431 /* DeckView.m in Sources */,
+				360AC40C0DC3F40A009E4431 /* DeckTableModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iFlashMe_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.0.sdk/usr/lib\"",
+				);
+				PRODUCT_NAME = iFlashMe;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iFlashMe_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.0.sdk/usr/lib\"",
+				);
+				PRODUCT_NAME = iFlashMe;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iFlashMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iFlashMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

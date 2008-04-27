@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   decks.plist
+   iFlashMe
+
+   Created by Charlie Morss on 4/22/08.
+   Copyright 2008 AdReady. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+			<array>
+				
+				<dict>
+					<key>Name</key>
+					<value>Beginning French I</value>
+					<key>Description</key>
+					<value>Starting french for travelers</value>
+					<key>id</key>
+					<value>1</value>
+				</dict>
+				
+				<dict>
+					<key>Name</key>
+					<value>Beginner French II</value>
+					<key>Description</key>
+					<value>Second level french for travelers</value>
+					<key>id</key>
+					<value>2</value>
+				</dict>
+				
+			</array>
+    </dict>
+</plist>
